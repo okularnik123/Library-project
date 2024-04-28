@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <dialog>
+      <p>Creating book</p>
+      <form>
+        <div>
+          <label for="titleInput">Book title:</label>
+          <input type="text" name="title" id="titleInput" />
+        </div>
+        <div>
+          <label for="authorInput">Book author:</label>
+          <input type="text" name="author" id="authorInput" />
+        </div>
+        <div>
+          <label for="pagesInput">Pages:</label>
+          <input type="number" name="pages" id="pagesInput" />
+        </div>
+        <div>
+          <label for="isReadedInput">Have you already read it?</label>
+          <input type="checkbox" name="isReaded" id="isReadedInput" />
+        </div>
+        <button id="submitBtn">Create</button>
+      </form>
+    </dialog>
+    <div class="header">
+      <div class="logoDiv">
+        <img src="images/logo.png" class="logo" />
+        <p class="logoText">City Library</p>
+      </div>
+      <div>
+        <button class="addBook">Add Book</button>
+      </div>
+    </div>
+    <div class="librarySection">
+      <p>Your books</p>
+      <div class="booksGrid">
+        <div class="bookCard">
+          <p class="title">Pan Tadeusz</p>
+          <p class="author">Adam Mickiewicz</p>
+          <p class="pages">Pages: 253</p>
+          <p class="isReaded">Is raeded: No</p>
+          <button class="deleteCard">Delete card</button>
+        </div>
+        <div class="bookCard">
+          <p class="title">Pan Tadeusz</p>
+          <p class="author">Adam Mickiewicz</p>
+          <p class="pages">Pages: 253</p>
+          <p class="isReaded">Is raeded: No</p>
+        </div>
+        <div class="bookCard">
+          <p class="title">Pan Tadeusz</p>
+          <p class="author">Adam Mickiewicz</p>
+          <p class="pages">Pages: 253</p>
+          <p class="isReaded">Is raeded: No</p>
+        </div>
+        <div class="bookCard">
+          <p class="title">Pan Tadeusz</p>
+          <p class="author">Adam Mickiewicz</p>
+          <p class="pages">Pages: 253</p>
+          <p class="isReaded">Is raeded: No</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
